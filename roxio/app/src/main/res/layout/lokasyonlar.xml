@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textPlace"
+        android:layout_width="310dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/textview_payment"
+        android:drawableLeft="@drawable/ic_newlocation"
+        android:maxLength="38"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textMyLocation"
+        android:layout_width="310dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textview_payment"
+        android:drawableLeft="@drawable/ic_location"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:text="   Konumunuz"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonDone"
+        android:layout_width="307dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="425dp"
+        android:background="@drawable/button_edit"
+        android:fontFamily="bold"
+        android:text="Done"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPlace" />
+</androidx.constraintlayout.widget.ConstraintLayout>
